@@ -26,6 +26,19 @@
             margin: 0 auto;
             padding: 0 24px;
         }
+        nav {
+            padding: 24px 0;
+            border-bottom: 1px solid #e5e5e5;
+        }
+        nav a {
+            color: #999;
+            text-decoration: none;
+            font-size: 0.85rem;
+            margin-right: 24px;
+        }
+        nav a:hover {
+            color: var(--primary);
+        }
         header {
             min-height: 100vh;
             display: flex;
@@ -124,6 +137,11 @@
 </head>
 <body>
     <div class="container">
+        <nav>
+            <a href="https://docs.firela.io">Docs</a>
+            <a href="https://docs.firela.io/blog">Blog</a>
+        </nav>
+
         <header>
             <img src="https://avatars.githubusercontent.com/u/235206218?s=400&u=fe70db81e306cbd0028ebba4ef1bfee04794d3d9&v=4" alt="FIREla" class="logo">
             <h1>git clone https://github.com/fire-la</h1>
